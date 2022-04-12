@@ -1,8 +1,4 @@
 from inc_noesis import *
-import noesis
-import rapi
-import struct
-import io
 
 def registerNoesisTypes():
     handle = noesis.register("Bionicle: The Game textures", ".bin")
